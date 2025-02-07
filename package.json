@@ -1,0 +1,58 @@
+{
+  "name": "@byloth/nuxtplate",
+  "version": "1.2.4",
+  "description": "A Nuxt.js 3 template app with TypeScript, Pinia, SASS and more.",
+  "keywords": [
+    "Nuxt.js",
+    "Vue.js",
+    "Template",
+    "TypeScript",
+    "Pinia",
+    "SASS",
+    "SCSS"
+  ],
+  "homepage": "https://github.com/Byloth/nuxtplate#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Byloth/nuxtplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Byloth/nuxtplate/issues"
+  },
+  "author": {
+    "name": "Matteo Bilotta",
+    "email": "me@byloth.dev",
+    "url": "https://www.byloth.dev/"
+  },
+  "license": "Apache-2.0",
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "lint": "eslint .",
+    "typecheck": "nuxt typecheck",
+    "prepare": "husky",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.7.2",
+    "@pinia/nuxt": "0.9.0",
+    "bootstrap": "^5.3.3",
+    "nuxt": "^3.15.4",
+    "pinia": "^2.3.1",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@byloth/eslint-config-nuxt": "^3.1.0",
+    "@eslint/compat": "^1.2.6",
+    "husky": "^9.1.7",
+    "sass": "^1.84.0",
+    "typescript": "^5.7.3",
+    "vue-tsc": "^2.2.0"
+  },
+  "private": true,
+  "packageManager": "pnpm@10.2.0+sha512.0d27364e0139c6aadeed65ada153135e0ca96c8da42123bd50047f961339dc7a758fc2e944b428f52be570d1bd3372455c1c65fa2e7aa0bfbf931190f9552001"
+}
