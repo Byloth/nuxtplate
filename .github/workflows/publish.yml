@@ -26,8 +26,8 @@ jobs:
 
       - name: Checking type consistency
         run: bun run typecheck
-      - name: Building the source code
-        run: bun run build
+      - name: Generating the static site
+        run: bun run generate
       - name: Uploading the artifact
         uses: actions/upload-artifact@v4
         with:
