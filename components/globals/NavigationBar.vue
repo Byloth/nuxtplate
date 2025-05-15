@@ -7,7 +7,7 @@
         <div class="container row">
             <div class="col">
                 <RouterLink :to="{ name: 'index' }" class="link bold">
-                    Tuemplate
+                    Nuxtplate
                 </RouterLink>
             </div>
             <div class="col right">
@@ -15,9 +15,9 @@
                     About
                 </RouterLink>
                 <a class="link"
-                   href="https://github.com/Byloth/tuemplate"
+                   href="https://github.com/Byloth/nuxtplate"
                    target="_blank"
-                   title="Tuemplate on GitHub">
+                   title="Nuxtplate on GitHub">
                     GitHub
                     <FontAwesome icon="square-arrow-up-right" />
                 </a>

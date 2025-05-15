@@ -1,7 +1,16 @@
+<script setup lang="ts">
+    import AlertHandler from "./components/handlers/AlertHandler.vue";
+
+    useErrorsHandler();
+</script>
+
 <template>
+    <!-- eslint-disable vue/no-multiple-template-root -->
+
     <NuxtLayout>
         <NuxtPage />
     </NuxtLayout>
+    <AlertHandler />
 </template>
 
 <style lang="scss">

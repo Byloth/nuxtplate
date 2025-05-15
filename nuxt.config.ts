@@ -13,6 +13,9 @@ export default defineNuxtConfig({
     }
   ],
   devtools: { enabled: true },
-  modules: ["@pinia/nuxt"],
+  modules: [
+    "@byloth/nuxt-vuert-module",
+    "@pinia/nuxt"
+  ],
   typescript: { typeCheck: true }
 });
