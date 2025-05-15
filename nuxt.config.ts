@@ -1,6 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   app: {
+    baseURL: "/nuxtplate/",
     pageTransition: { name: "page", mode: "out-in" }
   },
   compatibilityDate: "2024-11-01",
