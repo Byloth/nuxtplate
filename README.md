@@ -11,7 +11,7 @@ Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduct
 Make sure to install dependencies:
 
 ```bash
-pnpm install
+bun install
 ```
 
 ## Development Server
@@ -19,13 +19,13 @@ pnpm install
 Start the development server on `http://localhost:3000`:
 
 ```bash
-pnpm dev
+bun run dev
 ```
 
 Lint the code using [ESLint](https://eslint.org/):
 
 ```bash
-pnpm lint
+bun run lint
 ```
 
 ## Production
@@ -33,19 +33,19 @@ pnpm lint
 Build the application for production to be served as a Node.js server:
 
 ```bash
-pnpm build
+bun run build
 ```
 
 Build the application from production to be served as a static site:
 
 ```bash
-pnpm generate
+bun run generate
 ```
 
 Locally preview production build on `http://localhost:3000`:
 
 ```bash
-pnpm preview
+bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
