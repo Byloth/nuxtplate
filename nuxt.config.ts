@@ -4,7 +4,7 @@ export default defineNuxtConfig({
     baseURL: "/nuxtplate/",
     pageTransition: { name: "page", mode: "out-in" }
   },
-  compatibilityDate: "2024-11-01",
+  compatibilityDate: "2025-07-15",
   components: [
     { path: "@/components" },
     {
@@ -18,5 +18,10 @@ export default defineNuxtConfig({
     "@byloth/nuxt-vuert-module",
     "@pinia/nuxt"
   ],
-  typescript: { typeCheck: true }
+  typescript: {
+    typeCheck: true,
+    tsConfig: {
+      compilerOptions: { noUncheckedIndexedAccess: false }
+    }
+  }
 });
