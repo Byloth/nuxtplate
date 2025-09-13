@@ -1,7 +1,7 @@
 {
   "name": "@byloth/nuxtplate",
-  "version": "1.0.0",
-  "description": "A Nuxt.js 3 template app with TypeScript, Pinia, SASS and more.",
+  "version": "1.1.0",
+  "description": "A Nuxt.js 4 template app with TypeScript, Pinia, SASS and more.",
   "keywords": [
     "Nuxt.js",
     "Vue.js",

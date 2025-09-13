@@ -1,6 +1,6 @@
 # Byloth's Nuxtplate
 
-A Nuxt.js 3 template app with TypeScript, Pinia, SASS and more.
+A Nuxt.js 4 template app with TypeScript, Pinia, SASS and more.
 
 ## Configuration
 
