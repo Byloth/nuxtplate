@@ -4,7 +4,7 @@ export default defineNuxtConfig({
     baseURL: "/nuxtplate/",
     pageTransition: { name: "page", mode: "out-in" }
   },
-  compatibilityDate: "2025-07-15",
+  compatibilityDate: "2026-09-22",
   components: [
     { path: "@/components" },
     {
@@ -22,6 +22,9 @@ export default defineNuxtConfig({
     typeCheck: true,
     tsConfig: {
       compilerOptions: { noUncheckedIndexedAccess: false }
+    },
+    nodeTsConfig: {
+      compilerOptions: { lib: ["ESNext", "DOM", "DOM.Iterable", "WebWorker"] }
     }
   }
 });
